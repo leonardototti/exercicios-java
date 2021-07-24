@@ -13,6 +13,7 @@ public class CartaoCredito {
     public CartaoCredito(int numero, float limite, String bandeira) {
         this.numero = numero;
         this.bandeira = bandeira;
+        this.limite = limite;
     }
 
     public float getSaldo() { return this.saldo; }
